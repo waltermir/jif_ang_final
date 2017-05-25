@@ -1,0 +1,95 @@
+/* app css stylesheet */
+body {
+
+        background-color: #f0f3f4; 
+}
+
+#menu {
+          color: black;
+          opacity: .55;
+}
+
+#menu:hover {
+          color:black;
+          opacity: 100
+} 
+
+#menu_boton {
+        background-color: DodgerBlue;
+        padding: 10px;
+}
+
+#opciones {
+        background-color: white;
+        width: 250px;
+        height: 580px;
+        margin: 0;
+        padding:0;
+        
+}
+
+#logo{
+        padding: 5px 5px 0px 20px;
+
+}
+
+#contexto {
+    border-style:none;
+    margin:0;
+    border : 0;
+    width: 1095px;
+    height: 580px;
+}
+
+#divcontext {
+   margin:0;
+    border : 0; 
+}
+
+.menu-texto {
+  font-weight: 500; 
+  left: 62px; 
+  position: absolute; 
+  top: 10px;
+}
+
+#menu-texto-sel{
+  display:inline;
+}
+
+html { overflow:hidden; }
+        background-color: #e8e8e8 
+}
+
+#menu {
+          color: black;
+          opacity: .55;
+}
+
+#menu:hover {
+          color:black;
+          opacity: 100
+} 
+
+#menu_boton {
+        background-color: DodgerBlue;
+        padding: 10px;
+}
+
+#opciones {
+        background-color: white;
+        width: 250px;
+        height: 800px;
+        margin: 0;
+        padding:0;
+        
+}
+
+#logo{
+        padding: 5px 5px 0px 20px;
+
+}
+
+.green {
+  color: #69aa46!important;
+}

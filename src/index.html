@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JIF</title>
+
+		<meta charset="UTF-8">
+		
+		<link rel="stylesheet" href="../libs/assets/animate.css/animate.css" type="text/css" />
+		<link rel="stylesheet" href="../libs/assets/font-awesome/css/font-awesome.min.css" type="text/css" />
+		<link rel="stylesheet" href="../libs/assets/simple-line-icons/css/simple-line-icons.css" type="text/css" />
+		<link rel="stylesheet" href="../libs/jquery/datatables/media/css/jquery.dataTables.min.css" type="text/css" />
+		<link rel="stylesheet" href="../libs/jquery/bootstrap/dist/css/bootstrap.css" type="text/css" />
+		<link rel="stylesheet" href="../libs/assets/toastr/toastr.min.css" type="text/css" />
+		<link rel="stylesheet" href="./css/app.css">
+		<link rel="stylesheet" href="./css/font.css" type="text/css"/>
+		
+
+		
+	</head>
+
+	<body>
+
+	</head>
+
+	<body ng-app="app">
+
+
+		<div class="container-fluid">
+
+					<div class="row">
+						<div id ="menu_boton" class="col-md-12">
+							&nbsp; <i id ="menu" class="fa fa-bars fa-2x"></i>
+						</div>
+					  
+						<div class="menu-texto">
+							 <h1 class="m-n font-thin h3" id= "menu-texto-sel"></h1>	
+						</div>
+					</div>	
+
+					<div class="row">
+						<div id = "opciones" class="col-md-3">
+								<img id="logo" src="./img/transporte_flores_sin_fondo.jpg" width="210" height="100">
+								<HR width=100% align="left" style="padding : 0">
+
+								<ul class="nav nav-list">
+									<li class="active">
+
+										<a class="choferes_link" ui-sref="choferes">
+											<i class="fa fa-truck"></i>
+											<span class="menu-text"> Choferes </span>
+										</a> 
+									</li>
+
+									<li>
+										<a class="molinos_link" ui-sref="molinos">
+											<i class="fa fa-cog"></i>
+											<span class="menu-text"> Molinos </span>
+										</a>
+									</li>
+
+									<li>
+										<a href="typography.html">
+											<i class="fa fa-user"></i>
+											<span class="menu-text"> clientes </span>
+										</a>
+									</li>				
+									<li>
+										<a href="typography.html">
+											<i class="fa fa-pencil-square-o"></i>
+											<span class="menu-text"> Viajes </span>
+										</a>
+									</li>					
+
+								</ul><!--/.nav-list-->
+						</div> 
+													
+						<div class="col-md-9" ui-view>
+							
+						</div>
+											
+						
+					</div> 
+
+		</div>	  
+
+  
+		
+  <!-- jQuery -->
+  <script src="../libs/jquery/jquery/dist/jquery.js"></script>
+  <!-- Bootstrap -->
+  <script src="../libs/jquery/bootstrap/dist/js/bootstrap.js"></script>
+
+  <!-- Angular -->
+  <script src="../libs/angular/angular/angular.js"></script>
+
+   <!-- Toustr -->
+  <script src="../libs/assets/toastr/toastr.min.js"></script>  
+
+  <script src="../libs/angular/angular-animate/angular-animate.js"></script>
+  <script src="../libs/angular/angular-aria/angular-aria.js"></script>
+  <script src="../libs/angular/angular-cookies/angular-cookies.js"></script>
+  <script src="../libs/angular/angular-messages/angular-messages.js"></script>
+  <script src="../libs/angular/angular-resource/angular-resource.js"></script>
+  <script src="../libs/angular/angular-sanitize/angular-sanitize.js"></script>
+  <script src="../libs/angular/angular-touch/angular-touch.js"></script>
+  <!-- ngMaterial -->
+  <script src="../libs/angular/angular-material/angular-material.js"></script>
+
+  <script src="../libs/angular/angular-ui-router/release/angular-ui-router.js"></script> 
+  <script src="../libs/angular/ngstorage/ngStorage.js"></script>
+  <script src="../libs/angular/angular-ui-utils/ui-utils.js"></script>
+
+  <!-- bootstrap -->
+  <script src="../libs/angular/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+  <!-- lazyload -->
+  <script src="../libs/angular/oclazyload/dist/ocLazyLoad.js"></script>
+  <!-- translate -->
+  <script src="../libs/angular/angular-translate/angular-translate.js"></script>
+  <script src="../libs/angular/angular-translate-loader-static-files/angular-translate-loader-static-files.js"></script>
+  <script src="../libs/angular/angular-translate-storage-cookie/angular-translate-storage-cookie.js"></script>
+  <script src="../libs/angular/angular-translate-storage-local/angular-translate-storage-local.js"></script>
+
+  <!-- App -->
+  <script src="js/app.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/config.lazyload.js"></script>
+  <script src="js/config.router.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/services/ui-load.js"></script>
+  <script src="js/filters/fromNow.js"></script>
+  <script src="js/directives/setnganimate.js"></script>
+  <script src="js/directives/ui-butterbar.js"></script>
+  <script src="js/directives/ui-focus.js"></script>
+  <script src="js/directives/ui-fullscreen.js"></script>
+  <script src="js/directives/ui-jq.js"></script>
+  <script src="js/directives/ui-module.js"></script>
+  <script src="js/directives/ui-nav.js"></script>
+  <script src="js/directives/ui-scroll.js"></script>
+  <script src="js/directives/ui-shift.js"></script>
+  <script src="js/directives/ui-toggleclass.js"></script>
+  <script src="js/controllers/bootstrap.js"></script>
+  <!-- Lazy loading -->
+ <script src="./js/index.js"></script>    	
+</body>
+</html>
+

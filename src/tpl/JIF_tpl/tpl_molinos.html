@@ -1,0 +1,56 @@
+<!--<div ng-controller="molinosCtrl" ng-init="inicio()"> -->
+<div ng-init="inicio()"> 
+
+    <div class="row-fluid">
+        <div class="col-md-12 col-md-offset-11" >
+            <div class="btn-group open" dropdown="" is-open="status.isopen">
+                <button type="button" class="btn btn-primary" dropdown-toggle="" ng-disabled="disabled" aria-haspopup="true" aria-expanded="true" aria-disabled="false" style="margin-top: 5px">
+                Acción <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="" ng-click="open()">Alta</a></li>
+                    <li><a href="" ng-click="openActualiza()" >Modificación</a></li>
+                    <li><a href="" ng-click="openAlertBaja('sm')">Baja</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row-fluid">
+        <div class="col-md-12">
+            <div class="wrapper-md">
+                <div class="panel panel-default">
+
+                    <div class="table-responsive">
+                        <table id="data-molinos" class="display" ui-jq="dataTable" ui-refresh="refresh" width: "100%"  ui-options="{
+                            destroy : true,
+                            data: {{molinos}},
+                            aoColumns: [
+                            { mData: 'codigo', sWidth: '5%' },
+                            { mData: 'razon_social', sWidth: '20%' },
+                            { mData: 'tel_fijo' , sWidth: '2%'},
+                            { mData: 'internos', sWidth: '5%'},
+                            { mData: 'direccion', sWidth: '40%'},
+                            { mData: 'email', sWidth: '10%'},
+                            { mData: 'cuit', sWidth: '15%'}
+                            ]
+                            }" class="table table-striped b-t b-b">
+                            <thead>
+                                <tr>
+                                    <th  style="width:5%">Código</th>
+                                    <th  style="width:50%">Razón Social</th>
+                                    <th  style="width:2%">Teléfono</th>
+                                    <th  style="width:5%">Internos</th>
+                                    <th  style="width:50%">Dirección</th>
+                                    <th  style="width:15%">Email</th>
+                                    <th  style="width:35%">Cuit</th>
+                                </tr>
+                            </thead>
+                            <tbody id="data-tbody">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

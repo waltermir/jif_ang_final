@@ -1,0 +1,89 @@
+.label-documento{
+	padding-right:10px;
+}
+
+.imput-documento{
+	width:120px; 
+	display: inline;
+}
+
+.label-nombres{
+	padding-right:23px;
+}
+
+.input-nombres{
+	width:400px; 
+	display: inline;
+}
+
+.label-apellido{
+	padding-right:26px;
+}
+
+.input-apellido{
+	width:400px; 
+	display: inline;
+}
+
+.label-telefono{
+	padding-right:10px;
+}
+
+.input-telefono{
+	width:120px; 
+	display: inline;
+}
+
+.label-celular{
+	padding-right:5px;
+}
+
+.input-celular{
+	width:400px; 
+	display: inline;
+}
+
+.label-direccion{
+	padding-right:50px;
+}
+
+.input-direccion{
+	width:400px; 
+	display: inline;
+}
+
+.label-razon{
+	padding-right:58px;
+}
+
+.input-razon{
+	width:400px; 
+	display: inline;
+}
+
+.label-internos{
+	padding-right:58px;
+}
+
+.input-internos{
+	width:200px; 
+	display: inline;
+}
+
+.label-email{
+	padding-right:50px;
+}
+
+.input-email{
+	width:400px; 
+	display: inline;
+}
+
+.label-cuit{
+	padding-right:58px;
+}
+
+.input-cuit{
+	width:120px; 
+	display: inline;
+}
